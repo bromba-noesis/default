@@ -6,7 +6,8 @@ pool:
 
 steps:
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+    echo Checking versions
+    javac --version
+    mvn --version
   displayName: 'task1'
 
