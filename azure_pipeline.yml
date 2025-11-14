@@ -7,7 +7,6 @@ pool:
 steps:
 - script: |
     echo Checking versions
-    javac --version
-    mvn --version
+    dotnet --list-sdks
   displayName: 'task1'
 
